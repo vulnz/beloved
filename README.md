@@ -22,10 +22,17 @@ table.xlsx - Example of filled table = starter.bat after rename
 
 **Setup:**
 
-Navigate to 1.html (1,2,3,4.html) and change line 8 on desired and line 6 in every html file.
+1) Download Google chrome portable
+https://portableapps.com/apps/internet/google_chrome_portable
 
-Go to table.xlsx and fill it with proxy list creating bat file out of it ( convinient way).
+2) Download iMacros and install it into portable Chrome you downloaded before
+https://chrome.google.com/webstore/detail/imacros-for-chrome/cplklnmnlbnpmjogncfgfijoopmnlemp?hl=id
 
+3) Navigate to 1.html (1,2,3,4.html) and change line 8 on desired and line 6 in every html file.
+
+4) Go to table.xlsx and fill it with proxy list creating bat file out of it - starter.bat ( convinient way).
+
+5) Run starter.bat previously changing ping on the one will suit your proxy speed (225 can be good)
 
 **Options:**
 Using -n we get time + little random, change it depending on proxy speed.
