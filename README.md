@@ -35,6 +35,10 @@ Make sure you killing chrome right after it finished job.
 **Testing:**
 If you would like to see how it works just press single.bat and you will see how it works.
 
+**HARM:**
+Using this tool you can cause harm to you or your competitor - you can ban yours or his profile.
+You are not young man, think twice before doing any illigal activity.
+
 **Using other websites to do same things:**
 
 If you wish to make VIEWS and clicks on other websites like facebook or something other - use imacros plugin to record your like or action and replace it on html line 6 and 7. It will do its job like it does with behance. As long as imacros does not allow to abuse it really bad - only one line is allowed in this case. Buy commercial one in order to use more if you wish.
