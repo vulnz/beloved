@@ -1,0 +1,37 @@
+<html>
+   <body onload="window.setTimeout('document.getElementById(\'criimlaunch\').click();', 1000);">
+
+      <script>
+         var macroCode = '';
+         macroCode += 'URL GOTO=https://www.behance.net/gallery/42064483/BuyRepost-logotype/\n';
+		 macroCode += 'WAIT SECONDS=5\n';
+         macroCode += 'TAG POS=1 TYPE=A ATTR=TXT:Appreciate<SP>Project';
+         function launchMacro()
+            {
+            try
+               {
+                  if(!/^(?:chrome|https?|file)/.test(location))
+                  {
+                     alert('iMacros: Open webpage to run a macro.');
+                     return;
+                  }
+			   
+                  var macro = {}; 
+                  macro.source = macroCode;
+                  macro.name = 'EmbeddedMacro';
+			   
+                  var evt = document.createEvent('CustomEvent');
+                  evt.initCustomEvent('iMacrosRunMacro', true, true, macro);
+                  window.dispatchEvent(evt);
+               }
+            catch(e)
+            {
+               alert('iMacros Bookmarklet error: '+e.toString());
+            };
+         }
+      </script>
+
+      <a id="criimlaunch" href="javascript:launchMacro();">Launch CR iMacros</a>
+
+   </body>
+</html>
