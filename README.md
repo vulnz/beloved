@@ -13,8 +13,11 @@ It is designed to make unlimited likes over proxy on behance ( and views).
 **Files:**
 
 single.bat- allows to start single call for website and put like getting proxy as argument from starter.bat
+
 starter.bat - starts single.bat with proxy argument, should be created from table.xlsx
+
 table.xlsx - Example of filled table = starter.bat after rename
+
 1,2,3,4.html - File which includes macro for js for pushing button on website
 
 **Setup:**
